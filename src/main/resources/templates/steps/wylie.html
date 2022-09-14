@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="fragments/_header :: pageHead(pageTitle='Step Three - Wylie')"></head>
+<body>
+<div th:replace="fragments/_header :: pageHeader"></div>
+<main>
+    <h1>
+        Lucas was second!
+    </h1>
+    <p>
+       Wylie was born in 2005 and is the third of three brothers.
+    </p>
+    <p>
+        <img th:src="@{/img/WyAndSanta.jpg}" width="800" alt="Wylie and Santa">
+    </p>
+</main>
+<div th:insert="fragments/_footer :: pageFooter"></div>
+
+</body>
+</html>

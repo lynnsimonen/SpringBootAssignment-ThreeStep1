@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://thymeleaf.org">
+<head th:replace="fragments/_header :: pageHead(pageTitle='How to Create A Boy Family')"></head>
+<body>
+<div th:insert="fragments/_header :: pageHeader"></div>
+
+<h2>How To Create A Family of Boys</h2>
+<p>When you want a bunch of craziness in your life, try a family of boys.
+    They are full of laughs, energy and anything you can think of.</p>
+<p>
+    <img th:src="@{/img/3boysOnBeach.jpg}" width="500" alt="Three boys on beach">
+
+</p>
+
+<h2>How Do You Start?</h2>
+<p>
+    Make sure you have lots of places to set them free to roam.
+    <br>
+    Here's where the boys enjoy playing and spending time with family:
+    <a href="https://www.campkeweenaw.com/index.html">Family Cabin</a>
+</p>
+
+<div th:insert="fragments/_footer :: pageFooter"></div>
+
+</body>
+</html>
