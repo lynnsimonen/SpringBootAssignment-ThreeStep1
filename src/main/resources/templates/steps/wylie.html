@@ -3,17 +3,17 @@
 <head th:replace="fragments/_header :: pageHead(pageTitle='Step Three - Wylie')"></head>
 <body>
 <div th:replace="fragments/_header :: pageHeader"></div>
-<main>
-    <h1>
-        Lucas was second!
-    </h1>
+<div class="content">
+    <h2>
+        Wylie was third!
+    </h2>
     <p>
        Wylie was born in 2005 and is the third of three brothers.
     </p>
     <p>
-        <img th:src="@{/img/WyAndSanta.jpg}" width="800" alt="Wylie and Santa">
+        <img th:src="@{/img/WyAndSanta.jpg}" class="pic" alt="Wylie and Santa">
     </p>
-</main>
+</div>
 <div th:insert="fragments/_footer :: pageFooter"></div>
 
 </body>

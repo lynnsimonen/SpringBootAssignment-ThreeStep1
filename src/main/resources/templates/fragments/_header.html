@@ -2,17 +2,20 @@
 <html lang="en" xmlns:th="http://thymeleaf.org">
 
 <header th:fragment="pageHeader">
+    <h1>HOW TO HANDLE A BARREL FULL OF BOYS</h1>
     <nav>
-        <a th:href="@{/}">
-              <span class="material-symbols-sharp">
-                  forest
-              </span>
+        <div class="navline">
+
             <ul>
+                <li><a th:href="@{/}"><img style="text-align: center" class="monkey" th:src="@{/img/icons8-monkey-with-a-banana-96.png}" alt="monkey eating banana"></a>
+                </li>
                 <li><a th:href="@{step-one}">Step One: Ethan</a></li>
                 <li><a th:href="@{step-two}">Step Two: Lucas</a></li>
                 <li><a th:href="@{step-three}">Step Three: Wylie</a></li>
+                <li><a th:href="@{family-cabin}">Wander and Wonder at Family Cabin</a></li>
             </ul>
-        </a>
+        </div>
+
     </nav>
 </header>
 

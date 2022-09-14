@@ -3,17 +3,17 @@
 <head th:replace="fragments/_header :: pageHead(pageTitle='Step Two - Lucas')"></head>
 <body>
 <div th:replace="fragments/_header :: pageHeader"></div>
-<main>
-    <h1>
+<div class="content">
+    <h2>
         Lucas was second!
-    </h1>
+    </h2>
     <p>
         Lucas was born in 2002 and is the second of three brothers.
     </p>
     <p>
-        <img th:src="@{/img/Lucas1.jpg}" width="800" alt="Lucas">
+        <img th:src="@{/img/Lucas1.jpg}" class="pic" alt="Lucas">
     </p>
-</main>
+</div>
 <div th:insert="fragments/_footer :: pageFooter"></div>
 
 </body>
